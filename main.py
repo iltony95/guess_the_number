@@ -11,7 +11,7 @@ if start_game == "n":
 	print("Why do you launch me?!?    (-_-)'")
 while start_game == "y":
 	tries = 0
-	difficult = int(input("Choise a difficult:\n[0] You have 5 tries.\n[1] You have 3 tries.\n[2] You have 1 try.\n"))
+	difficult = int(input("Choose a difficult:\n[0] You have 5 tries.\n[1] You have 3 tries.\n[2] You have 1 try.\n"))
 	if difficult == 0:
 		tries = 5
 	elif difficult == 1:
